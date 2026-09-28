@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  color: #18332f;
+  background: #f4f7f3;
+  font-family: "Avenir Next", Avenir, sans-serif;
+}
+
+main {
+  width: min(100%, 720px);
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+}
+
+p {
+  margin: 0 0 1.5rem;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
