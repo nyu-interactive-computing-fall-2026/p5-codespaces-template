@@ -5,8 +5,11 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "ms-vscode.live-server"
+        "ms-vscode.live-server",
+        "GitHub.copilot",
+        "GitHub.copilot-chat"
       ]
     }
-  }
+  },
+  "postCreateCommand": "gh extension install github/copilot"
 }
