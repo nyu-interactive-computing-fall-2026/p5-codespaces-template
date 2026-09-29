@@ -1,6 +1,11 @@
 {
   "name": "p5.js Starter",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "22"
+    }
+  },
   "forwardPorts": [3000, 3001],
   "customizations": {
     "vscode": {
@@ -11,5 +16,5 @@
       ]
     }
   },
-  "postCreateCommand": "gh extension install github/copilot"
+  "postCreateCommand": "npm install -g @github/copilot"
 }
